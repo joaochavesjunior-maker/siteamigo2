@@ -1,0 +1,77 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: monospace, sans-serif;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ff69b4;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+.gallery {
+  display: none;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.ascii-container {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px #ff69b4;
+  overflow: auto;
+  user-select: none;
+}
+
+#ascii {
+  font-family: monospace;
+  font-size: 8px;
+  line-height: 8px;
+  letter-spacing: 1px;
+  color: #fff;
+  white-space: pre;
+  margin: 0;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 30px #ff69b4;
+  object-fit: cover;
+  user-select: none;
+}
+
+.mensagem {
+  font-size: 20px;
+  color: #ff69b4;
+  user-select: none;
+  display: none;
+}
